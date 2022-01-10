@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp"
+    android:elevation="10dp"
+    android:background="@drawable/gradient_background">
+
+    <TextView
+        android:id="@+id/blood_group_request_ItemView"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:padding="4dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle"
+        android:gravity="center"
+        android:text="B+"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/message_request_ItemView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/muli_semibold"
+        android:text="Message"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/blood_group_request_ItemView"
+        app:layout_constraintStart_toEndOf="@+id/blood_group_request_ItemView"
+        app:layout_constraintTop_toTopOf="@+id/blood_group_request_ItemView"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <ImageView
+        android:id="@+id/done_request_ItemView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/ic_baseline_done_24"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@+id/delete_request_ItemView"
+        app:layout_constraintTop_toTopOf="@+id/delete_request_ItemView" />
+
+    <TextView
+        android:id="@+id/time_request_ItemView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:paddingBottom="10dp"
+        android:text="time"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/message_request_ItemView"
+        app:layout_constraintTop_toBottomOf="@+id/message_request_ItemView" />
+
+    <TextView
+        android:id="@+id/plasma_request_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:gravity="center"
+        android:text="(Plasma)"
+        android:layout_marginStart="8dp"
+        android:visibility="invisible"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/time_request_ItemView"
+        app:layout_constraintTop_toBottomOf="@+id/message_request_ItemView" />
+
+    <ImageButton
+        android:id="@+id/delete_request_ItemView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/circle_del"
+        android:contentDescription="DELETE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.473"
+        app:srcCompat="@drawable/ic_baseline_delete_24" />
+
+    <TextView
+        android:id="@+id/distance_request_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="6dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="D"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/delete_request_ItemView" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/drawable-anydpi/gradient_background.xml" value="0.17871621621621622" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/drawable-anydpi/ic_baseline_done_white.xml" value="0.16319444444444445" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/drawable-xxhdpi/gradient_background_less.xml" value="0.17692307692307693" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/drawable/block_background.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/drawable/bottom_navigation_selector.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/drawable/circle.xml" value="0.2759259259259259" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/drawable/circle_del.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/drawable/ic_baseline_add_location_24.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/drawable/ic_baseline_done_24.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/drawable/ic_baseline_vpn_key_24.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/drawable/ic_location_green.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/drawable/ic_location_red.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/drawable/ic_notifications.xml" value="0.2712820512820513" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/drawable/icon_home.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/drawable/icon_person.xml" value="0.17692307692307693" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/drawable/rounded_textview.xml" value="0.2759259259259259" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/drawable/row_back.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/drawable/row_background.xml" value="0.15104166666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/layout/activity_add_request.xml" value="0.144" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/layout/activity_all_request_list.xml" value="0.152" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/layout/activity_detail_request.xml" value="0.152" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/layout/activity_different_location.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/layout/activity_doner_login.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/layout/activity_donor_home.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/layout/activity_donor_login.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/layout/activity_donor_register.xml" value="0.264" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/layout/activity_home.xml" value="0.264" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/layout/activity_login.xml" value="0.152" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/layout/activity_my_request_detail.xml" value="0.136" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/layout/activity_register.xml" value="0.136" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/layout/activity_splash.xml" value="0.12" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/layout/dialog_custom_loading.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/layout/drop_down_item.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/layout/eligebility_custom_loading.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/layout/fragment_account.xml" value="0.152" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/layout/fragment_donor_account.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/layout/fragment_donor_home.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/layout/fragment_donor_message.xml" value="0.2604166666666667" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/layout/fragment_home.xml" value="0.176" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/layout/fragment_notification.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/layout/fragment_request.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/layout/random_fact_item_view.xml" value="0.16824324324324325" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/layout/request_item_view.xml" value="0.536" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/vblood/app/src/main/res/menu/menu.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

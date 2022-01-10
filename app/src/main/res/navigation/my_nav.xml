@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/donorHomeFragment">
+
+    <fragment
+        android:id="@+id/donorHomeFragment"
+        android:name="com.example.vblood.view.fragment.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/donorRequestFragment"
+        android:name="com.example.vblood.view.fragment.RequestFragment"
+        android:label="Message"
+        tools:layout="@layout/fragment_request" />
+    <fragment
+        android:id="@+id/donorAccountFragment"
+        android:name="com.example.vblood.view.fragment.AccountFragment"
+        android:label="Account"
+        tools:layout="@layout/fragment_account" />
+    <fragment
+        android:id="@+id/notificationFragment"
+        android:name="com.example.vblood.view.fragment.NotificationFragment"
+        android:label="Notification"
+        tools:layout="@layout/fragment_notification" />
+</navigation>

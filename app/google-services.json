@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "345621734192",
+    "project_id": "vblood-9faeb",
+    "storage_bucket": "vblood-9faeb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345621734192:android:460f441c6ce767522e5ef5",
+        "android_client_info": {
+          "package_name": "com.example.vblood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "345621734192-7ebpcli2anngo08ho478a19ucf7kf628.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vblood",
+            "certificate_hash": "7912013fa696524b363005d0603f380c3c8ea659"
+          }
+        },
+        {
+          "client_id": "345621734192-p1o0c6bvqj8fiene418bpdu7srn8f88b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCArnPvxkh-7XTMECOuBfVjrQoAD23OcOo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "345621734192-p1o0c6bvqj8fiene418bpdu7srn8f88b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

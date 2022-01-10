@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/white"
+android:transitionName="transition_login"
+tools:context=".view.activity.RegisterActivity">
+
+<LinearLayout
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/muli_extrabold"
+        android:text="@string/register"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="40sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/register_profile_pic"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/icon_person" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/register_name_TextInputLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_below="@id/register_profile_pic"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_name"
+            android:textColorHint="@color/black"
+            app:boxStrokeColor="@color/black"
+            app:boxStrokeWidthFocused="2dp"
+            app:endIconMode="clear_text"
+            app:endIconTint="@color/black"
+            app:hintTextColor="@color/black"
+            app:startIconDrawable="@drawable/icon_person"
+            app:startIconTint="@color/black">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/register_name_EditText"
+                android:background="@drawable/gradient_background"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/muli_semibold"
+                android:inputType="textPersonName"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@null" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/register_phone_TextInputLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_below="@id/register_name_TextInputLayout"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_phone_number"
+            android:textColorHint="@color/black"
+            app:boxStrokeColor="@color/black"
+            app:boxStrokeWidthFocused="2dp"
+            app:endIconMode="clear_text"
+            app:endIconTint="@color/black"
+            app:hintTextColor="@color/black"
+            app:startIconDrawable="@drawable/ic_baseline_phone_24"
+            app:startIconTint="@color/black">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/register_phone_EditText"
+                android:background="@drawable/gradient_background"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/muli_semibold"
+                android:inputType="phone"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@null" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/register_email_TextInputLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_below="@id/register_phone_TextInputLayout"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_email"
+            android:textColorHint="@color/black"
+            app:boxStrokeColor="@color/black"
+            app:boxStrokeWidthFocused="2dp"
+            app:endIconMode="clear_text"
+            app:endIconTint="@color/black"
+            app:hintTextColor="@color/black"
+            app:startIconDrawable="@drawable/ic_baseline_email_24"
+            app:startIconTint="@color/black">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/register_email_EditText"
+                android:background="@drawable/gradient_background"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/muli_semibold"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@null" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <RelativeLayout
+            android:id="@+id/gender_select"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/register_email_TextInputLayout">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/gradient_background"
+                android:fontFamily="@font/muli_semibold"
+                android:padding="13dp"
+                android:text="@string/select_gender"
+                android:textSize="18sp" />
+
+            <nl.bryanderidder.themedtogglebuttongroup.ThemedToggleButtonGroup
+                android:id="@+id/gender_ToggleGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:paddingTop="6dp"
+                app:flexWrap="wrap"
+                app:justifyContent="space_between"
+                app:toggle_requiredAmount="1"
+                app:toggle_selectAnimation="circular_reveal"
+                app:toggle_selectableAmount="1">
+
+                <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+                    android:id="@+id/gender_radio_male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    app:toggle_selectedTextColor="@color/black"
+                    app:toggle_backgroundColor="@color/blood_super_light"
+                    app:toggle_selectedBackgroundColor="@color/white"
+                    app:toggle_text="@string/male" />
+
+                <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+                    android:id="@+id/gender_radio_female"
+                    android:layout_width="wrap_content"
+                    app:toggle_selectedTextColor="@color/black"
+                    android:layout_height="45dp"
+                    app:toggle_backgroundColor="@color/blood_super_light"
+                    app:toggle_selectedBackgroundColor="@color/white"
+                    app:toggle_text="@string/female" />
+
+                <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+                    android:id="@+id/gender_radio_other"
+                    android:layout_width="wrap_content"
+                    app:toggle_selectedTextColor="@color/black"
+                    android:layout_height="45dp"
+                    app:toggle_backgroundColor="@color/blood_super_light"
+                    app:toggle_selectedBackgroundColor="@color/white"
+                    app:toggle_text="@string/others" />
+            </nl.bryanderidder.themedtogglebuttongroup.ThemedToggleButtonGroup>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/donor_select_RelativeLayout"
+            android:orientation="horizontal"
+            android:layout_below="@id/gender_select">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/gradient_background"
+                android:fontFamily="@font/muli_semibold"
+                android:padding="13dp"
+                android:text="@string/want_to_be_a_donor"
+                android:textSize="18sp" />
+
+            <nl.bryanderidder.themedtogglebuttongroup.ThemedToggleButtonGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                app:flexWrap="wrap"
+                android:id="@+id/donor_select_ToggleGroup"
+                app:justifyContent="space_between"
+                android:layout_alignParentEnd="true"
+                app:toggle_requiredAmount="1"
+                app:toggle_selectableAmount="1"
+                app:toggle_selectAnimation="circular_reveal">
+                <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+                    android:id="@+id/donor_select_ToggleButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    app:toggle_selectedTextColor="@color/black"
+                    app:toggle_text="No"
+                    app:toggle_selectedText="Yes"
+                    app:toggle_selectedBackgroundColor="@color/white"
+                    app:toggle_backgroundColor="@color/blood_super_light" />
+            </nl.bryanderidder.themedtogglebuttongroup.ThemedToggleButtonGroup>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/blood_group_RelativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/donor_select_RelativeLayout">
+
+            <nl.bryanderidder.themedtogglebuttongroup.ThemedToggleButtonGroup
+                android:id="@+id/blood_group_ToggleGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="6dp"
+                app:flexWrap="wrap"
+                app:justifyContent="space_between"
+                app:toggle_requiredAmount="1"
+                app:toggle_selectAnimation="circular_reveal"
+                app:toggle_selectableAmount="1">
+
+                <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+                    android:id="@+id/blood_group_ap_ToggleButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_margin="3dp"
+                    app:toggle_backgroundColor="@color/blood_super_light"
+                    app:toggle_selectedBackgroundColor="@color/white"
+                    app:toggle_selectedTextColor="@color/black"
+                    app:toggle_text="A+" />
+
+                <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+                    android:id="@+id/blood_group_an_ToggleButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_margin="3dp"
+                    app:toggle_backgroundColor="@color/blood_super_light"
+                    app:toggle_selectedBackgroundColor="@color/white"
+                    app:toggle_selectedTextColor="@color/black"
+                    app:toggle_text="A-" />
+
+                <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+                    android:id="@+id/blood_group_bp_ToggleButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_margin="3dp"
+                    app:toggle_backgroundColor="@color/blood_super_light"
+                    app:toggle_selectedBackgroundColor="@color/white"
+                    app:toggle_selectedTextColor="@color/black"
+                    app:toggle_text="B+" />
+
+                <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+                    android:id="@+id/blood_group_bn_ToggleButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_margin="3dp"
+                    app:toggle_backgroundColor="@color/blood_super_light"
+                    app:toggle_selectedBackgroundColor="@color/white"
+                    app:toggle_selectedTextColor="@color/black"
+                    app:toggle_text="B-" />
+
+                <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+                    android:id="@+id/blood_group_op_ToggleButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_margin="3dp"
+                    app:toggle_backgroundColor="@color/blood_super_light"
+                    app:toggle_selectedBackgroundColor="@color/white"
+                    app:toggle_selectedTextColor="@color/black"
+                    app:toggle_text="O+" />
+
+                <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+                    android:id="@+id/blood_group_on_ToggleButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_margin="3dp"
+                    app:toggle_backgroundColor="@color/blood_super_light"
+                    app:toggle_selectedBackgroundColor="@color/white"
+                    app:toggle_selectedTextColor="@color/black"
+                    app:toggle_text="O-" />
+
+                <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+                    android:id="@+id/blood_group_abp_ToggleButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_margin="3dp"
+                    app:toggle_backgroundColor="@color/blood_super_light"
+                    app:toggle_selectedBackgroundColor="@color/white"
+                    app:toggle_selectedTextColor="@color/black"
+                    app:toggle_text="AB+" />
+
+                <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+                    android:id="@+id/blood_group_abn_ToggleButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_margin="3dp"
+                    app:toggle_backgroundColor="@color/blood_super_light"
+                    app:toggle_selectedBackgroundColor="@color/white"
+                    app:toggle_selectedTextColor="@color/black"
+                    app:toggle_text="AB-" />
+            </nl.bryanderidder.themedtogglebuttongroup.ThemedToggleButtonGroup>
+
+
+        </RelativeLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/state_spinner"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/blood_group_RelativeLayout">
+
+        <AutoCompleteTextView
+            android:id="@+id/state_select_drop_down_menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/gradient_background"
+            android:fontFamily="@font/muli_semibold"
+            android:inputType="none"
+            android:padding="13dp"
+            android:text="@string/state"
+            tools:ignore="LabelFor" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/register_password_TextInputLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true"
+            android:hint="@string/enter_password"
+            android:layout_below="@id/state_spinner"
+            android:textColorHint="@color/black"
+            app:boxStrokeColor="@color/black"
+            app:boxStrokeWidthFocused="2dp"
+            app:endIconMode="clear_text"
+            app:endIconTint="@color/black"
+            app:hintTextColor="@color/black"
+            app:startIconDrawable="@drawable/ic_baseline_vpn_key_24"
+            app:startIconTint="@color/black"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/register_password_EditText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/muli_semibold"
+                android:inputType="textPassword"
+                android:background="@drawable/gradient_background"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@null" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/register_re_enter_password_TextInputLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true"
+            android:hint="@string/re_enter_password"
+            android:layout_below="@id/register_password_TextInputLayout"
+            android:textColorHint="@color/black"
+            app:boxStrokeColor="@color/black"
+            app:boxStrokeWidthFocused="2dp"
+            app:endIconMode="clear_text"
+            app:endIconTint="@color/black"
+            app:hintTextColor="@color/black"
+            app:startIconDrawable="@drawable/ic_baseline_vpn_key_24"
+            app:startIconTint="@color/black"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/register_re_enter_password_EditText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/muli_semibold"
+                android:inputType="textPassword"
+                android:background="@drawable/gradient_background"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@null" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/register_Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/register_re_enter_password_TextInputLayout"
+            android:layout_marginTop="20dp"
+            android:background="@color/black"
+            android:text="@string/register"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/login_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/register_Button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/gradient_background_less"
+            android:padding="10dp"
+            android:text="Login Account"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+
+</ScrollView>

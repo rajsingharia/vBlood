@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">vblood</string>
+    <string name="login">Login</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forget_password">Forgot Password</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="register">Register</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="re_enter_password">Re Enter Password</string>
+    <string name="state">State</string>
+    <string name="female">F</string>
+    <string name="male">M</string>
+    <string name="others">O</string>
+    <string name="want_to_be_a_donor">Want to be a donor ?</string>
+    <string name="select_gender">Select Gender</string>
+    <string name="choose_blood_group">Choose Blood Group</string>
+    <string name="enter_request_message">Enter Request Message</string>
+    <string name="find_donor">Find Donor</string>
+    <string name="conditions">1. You should not have a chesty cough, sore throat, cold sore and should not come down with a cold.\n\n2. You should not have any infection in the last two weeks and you should not have taken antibiotics within the last seven days.\n\n3. You shoud not have any critical heart conditions.\n\n4. In the last four months, you should not have a tattoo, semi-permanent make up or any cosmetic treatments that involved piercing the skin.</string>
+</resources>
